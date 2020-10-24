@@ -1,0 +1,52 @@
+@import './variables';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: $background-color;
+    h1 {
+        padding: 10vh 0;
+        font-size: 60px;
+        font-family: 'Dancing Script', cursive;
+        color: $font-color;
+    }
+    .random-quote-container {
+        max-width: 80%;
+        border-radius: 10px;
+        background-color: $container-color;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p, button {
+            font-family: 'Dancing Script', cursive;
+            color: $font-color;
+            font-size: 30px;
+            margin: 15px;
+        }
+        .random-quote {
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        .random-quote-author {
+            font-family: 'Josefin Sans', sans-serif;
+            font-style: italic;
+            font-weight: 300;
+        }
+        button {
+            padding: 10px;
+            color: $background-color;
+            background-color: $button-color;
+            transition: all 0.1s;
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+    }
+}

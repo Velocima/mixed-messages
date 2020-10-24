@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #3797a4; }
+
+body h1 {
+  padding: 10vh 0;
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+  color: #fcf876; }
+
+body .random-quote-container {
+  max-width: 80%;
+  border-radius: 10px;
+  background-color: #8bcdcd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+body .random-quote-container p, body .random-quote-container button {
+  font-family: 'Dancing Script', cursive;
+  color: #fcf876;
+  font-size: 30px;
+  margin: 15px; }
+
+body .random-quote-container .random-quote {
+  font-family: 'Josefin Sans', sans-serif; }
+
+body .random-quote-container .random-quote-author {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  font-weight: 300; }
+
+body .random-quote-container button {
+  padding: 10px;
+  color: #3797a4;
+  background-color: #cee397;
+  transition: all 0.1s; }
+
+body .random-quote-container button:active {
+  transform: scale(0.95); }
