@@ -1,0 +1,22 @@
+{
+  "name": "mixed-messages",
+  "version": "1.0.0",
+  "description": "Create, store and view your favourite inspirational quotes with Mixed Messages.",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w . -o ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Velocima/mixed-messages.git"
+  },
+  "author": "Max Hartley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Velocima/mixed-messages/issues"
+  },
+  "homepage": "https://github.com/Velocima/mixed-messages#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
